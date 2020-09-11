@@ -1,1 +1,5 @@
-var headerJumbotron = 
+var headerJumbotron = "jumbotron"
+var display3 = "display-3"
+var lead = "lead"
+var currentDay = "currentDay"
+var container = "container"
