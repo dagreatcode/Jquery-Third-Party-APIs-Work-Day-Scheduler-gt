@@ -10,11 +10,11 @@ $(document).ready(function () {
     var leadEl = $(".lead");
     var currentDayEl = $("#currentDay");
     var timeBlockEl = $(".container");
-
     currentDayEl.text(m.format('MMMM Do YYYY')); // September 11th 2020, 10:46:49 pm
     timeBlockEl.text(m.format('h:mm:ss a'));
 
-
+  //user.json
+    
     console.log(JSON.stringify(m));
  
  });
