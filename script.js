@@ -8,12 +8,13 @@ $(document).ready(function () {
 // var headerJumbotronEl = $(".jumbotron");
 // var display3El = $(".display-3");
 // var leadEl = $(".lead");
-});
 var currentDayEl = $("#currentDay");
 var timeBlockEl = $(".container");
 
 currentDayEl.text(m.format('MMMM Do YYYY')); // September 11th 2020, 10:46:49 pm
 timeBlockEl.text(m.format('h:mm:ss a'));
+});
+
 
     
 // moment().format('MMMM Do YYYY, h:mm:ss a'); // September 11th 2020, 10:46:49 pm
