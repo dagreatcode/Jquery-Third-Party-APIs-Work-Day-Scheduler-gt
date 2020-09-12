@@ -5,16 +5,22 @@ $(document).ready(function () {
    
     //Adding the calendar
     var calender = document.querySelector(".container");
-
-
-    //Converting the tags
+    //for (var i = 0; i < 0; i++);
+    for (var day = 1; day < 31; day++)
+        var cal = $("")
+        console.log(day)
+    
+        //Converting the tags
     var headerJumbotronEl = $(".jumbotron");
     var display3El = $(".display-3");
     var leadEl = $(".lead");
     var currentDayEl = $("#currentDay");
     var timeBlockEl = $(".container");
-    currentDayEl.text(m.format('MMMM Do YYYY')); // September 11th 2020, 10:46:49 pm
+    
+    //Showing Info
+    currentDayEl.text(m.format('MMMM Do YYYY'));
     timeBlockEl.text(m.format('h:mm:ss a'));
+    
     //Arrat of object so we can Iterate over them
     //JSON Format Javascript Object Notation
     timeSlots [
@@ -59,11 +65,11 @@ $(document).ready(function () {
         }
     ]
 
-  //user.json
-    
+  //user.json 
     console.log(JSON.parse())
     console.log(JSON.stringify());
-// This is where 
+
+    // This is where 
  });
                     // Teachers Advice and teachings
     //  // This line of JavaScript "grabs" the main div on the page ("#drink-options");
