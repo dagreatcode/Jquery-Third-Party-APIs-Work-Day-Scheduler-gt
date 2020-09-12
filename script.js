@@ -43,3 +43,27 @@ $(document).ready(function () {
 // moment().format("MMM Do YY");               // Sep 11th 20
 // moment().format('YYYY [escaped] YYYY');     // 2020 escaped 2020
 // moment().format();                          // 2020-09-11T22:46:49-04:00
+// moment("20111031", "YYYYMMDD").fromNow(); // 9 years ago
+// moment("20120620", "YYYYMMDD").fromNow(); // 8 years ago
+// moment().startOf('day').fromNow();        // 32 minutes ago
+// moment().endOf('day').fromNow();          // in a day
+// moment().startOf('hour').fromNow();       // 32 minutes ago
+// moment().subtract(10, 'days').calendar(); // 09/02/2020
+// moment().subtract(6, 'days').calendar();  // Last Sunday at 12:32 AM
+// moment().subtract(3, 'days').calendar();  // Last Wednesday at 12:32 AM
+// moment().subtract(1, 'days').calendar();  // Yesterday at 12:32 AM
+// moment().calendar();                      // Today at 12:32 AM
+// moment().add(1, 'days').calendar();       // Tomorrow at 12:32 AM
+// moment().add(3, 'days').calendar();       // Tuesday at 12:32 AM
+// moment().add(10, 'days').calendar();     
+// moment.locale();         // en
+// moment().format('LT');   // 12:33 AM
+// moment().format('LTS');  // 12:33:00 AM
+// moment().format('L');    // 09/12/2020
+// moment().format('l');    // 9/12/2020
+// moment().format('LL');   // September 12, 2020
+// moment().format('ll');   // Sep 12, 2020
+// moment().format('LLL');  // September 12, 2020 12:33 AM
+// moment().format('lll');  // Sep 12, 2020 12:33 AM
+// moment().format('LLLL'); // Saturday, September 12, 2020 12:33 AM
+// moment().format('llll'); // Sat, Sep 12, 2020 12:33 AM
