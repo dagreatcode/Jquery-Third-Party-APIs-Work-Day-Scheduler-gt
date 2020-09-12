@@ -3,8 +3,11 @@ $(document).ready(function () {
     var m = moment();
     console.log(m);
    
-    //Converting the tags
+    //Adding the calendar
+    var calender = document.querySelector(".container");
 
+
+    //Converting the tags
     var headerJumbotronEl = $(".jumbotron");
     var display3El = $(".display-3");
     var leadEl = $(".lead");
@@ -12,21 +15,49 @@ $(document).ready(function () {
     var timeBlockEl = $(".container");
     currentDayEl.text(m.format('MMMM Do YYYY')); // September 11th 2020, 10:46:49 pm
     timeBlockEl.text(m.format('h:mm:ss a'));
-    timeSlots [{
+    //Arrat of object so we can Iterate over them
+    //JSON Format Javascript Object Notation
+    timeSlots [
+        {
          "12" : "noon",
-         "1" : "afterNoon",         "12" : "noon",
-         "2" : "afterNoon",
+        },
+        { 
+         "1" : "afterNoon", 
+        },
+        {
+        "2" : "afterNoon",
+        }, 
+        { 
          "3" : "noon",
+        }, 
+        { 
          "4" : "afterNoon",
+        }, 
+        { 
          "5" : "noon",
+        }, 
+        { 
          "6" : "afterNoon",
+        },
+        { 
          "7" : "noon",
+        }, 
+        { 
          "7" : "afterNoon",
+        }, 
+        { 
          "8" : "noon",
+        }, 
+        { 
          "9" : "afterNoon",
+        }, 
+        { 
          "10" : "noon",
+        }, 
+        { 
          "11" : "afterNoon",
-    }]
+        }
+    ]
 
   //user.json
     
