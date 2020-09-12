@@ -11,11 +11,53 @@ $(document).ready(function () {
     var currentDayEl = $("#currentDay");
     var timeBlockEl = $(".container");
 
+            // timeSlots [
+    //     {
+    //      "12" : 1200,
+    //     },
+    //     { 
+    //      "1" : 1300, 
+    //     },
+    //     {
+    //     "2" : 1400,
+    //     }, 
+    //     { 
+    //      "3" : 1500,
+    //     }, 
+    //     { 
+    //      "4" : 1600,
+    //     }, 
+    //     { 
+    //      "5" : 1700,
+    //     }, 
+    //     { 
+    //      "6" : 1800,
+    //     },
+    //     { 
+    //      "7" : 1900,
+    //     }, 
+    //     { 
+    //      "7" : 2000,
+    //     }, 
+    //     { 
+    //      "8" : 2100,
+    //     }, 
+    //     { 
+    //      "9" : 2200,
+    //     }, 
+    //     { 
+    //      "10" : 2300,
+    //     }, 
+    //     { 
+    //      "11" : 2400,
+    //     }
+    // ]
+
 
     // //Adding the calendar
     // var calender = document.querySelector(".container");
     // //for (var i = 0; i < 0; i++);
-    // for (var day = 0; day < ; day++)
+    // for (var day = 0; day < timeSlot.length; day++)
     //     var cal = $("")
     //     console.log(day)
     
@@ -25,54 +67,14 @@ $(document).ready(function () {
     var leadEl = $(".lead");
     var currentDayEl = $("#currentDay");
     var timeBlockEl = $(".container");
-    
+
     //Showing Info
     currentDayEl.text(m.format('MMMM Do YYYY'));
     timeBlockEl.text(m.format('h:mm:ss a'));
     
     //Array of object so we can Iterate over them
     //JSON Format Javascript Object Notation
-    // timeSlots [
-    //     {
-    //      "12" : "noon",
-    //     },
-    //     { 
-    //      "1" : "afterNoon", 
-    //     },
-    //     {
-    //     "2" : "afterNoon",
-    //     }, 
-    //     { 
-    //      "3" : "noon",
-    //     }, 
-    //     { 
-    //      "4" : "afterNoon",
-    //     }, 
-    //     { 
-    //      "5" : "noon",
-    //     }, 
-    //     { 
-    //      "6" : "afterNoon",
-    //     },
-    //     { 
-    //      "7" : "noon",
-    //     }, 
-    //     { 
-    //      "7" : "afterNoon",
-    //     }, 
-    //     { 
-    //      "8" : "noon",
-    //     }, 
-    //     { 
-    //      "9" : "afterNoon",
-    //     }, 
-    //     { 
-    //      "10" : "noon",
-    //     }, 
-    //     { 
-    //      "11" : "afterNoon",
-    //     }
-    // ]
+
 
   //user.json 
     console.log(JSON.parse())
