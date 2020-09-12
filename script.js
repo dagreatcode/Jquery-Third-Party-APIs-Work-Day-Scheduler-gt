@@ -12,11 +12,27 @@ $(document).ready(function () {
     var timeBlockEl = $(".container");
     currentDayEl.text(m.format('MMMM Do YYYY')); // September 11th 2020, 10:46:49 pm
     timeBlockEl.text(m.format('h:mm:ss a'));
+    timeSlots [{
+         "12" : "noon",
+         "1" : "afterNoon",         "12" : "noon",
+         "2" : "afterNoon",
+         "3" : "noon",
+         "4" : "afterNoon",
+         "5" : "noon",
+         "6" : "afterNoon",
+         "7" : "noon",
+         "7" : "afterNoon",
+         "8" : "noon",
+         "9" : "afterNoon",
+         "10" : "noon",
+         "11" : "afterNoon",
+    }]
 
   //user.json
+    
     console.log(JSON.parse())
     console.log(JSON.stringify());
- 
+// This is where 
  });
                     // Teachers Advice and teachings
     //  // This line of JavaScript "grabs" the main div on the page ("#drink-options");
