@@ -3,47 +3,47 @@ $(document).ready(function () {
     var m = moment();
     console.log(m);
 
-            // timeSlots [
-    //     {
-    //      "12" : 1200,
-    //     },
-    //     { 
-    //      "1" : 1300, 
-    //     },
-    //     {
-    //     "2" : 1400,
-    //     }, 
-    //     { 
-    //      "3" : 1500,
-    //     }, 
-    //     { 
-    //      "4" : 1600,
-    //     }, 
-    //     { 
-    //      "5" : 1700,
-    //     }, 
-    //     { 
-    //      "6" : 1800,
-    //     },
-    //     { 
-    //      "7" : 1900,
-    //     }, 
-    //     { 
-    //      "7" : 2000,
-    //     }, 
-    //     { 
-    //      "8" : 2100,
-    //     }, 
-    //     { 
-    //      "9" : 2200,
-    //     }, 
-    //     { 
-    //      "10" : 2300,
-    //     }, 
-    //     { 
-    //      "11" : 2400,
-    //     }
-    // ]
+    timeSlots = [
+        {
+          "12" : 1200,
+        },
+        { 
+          "1" : 1300, 
+        },
+        {
+         "2" : 1400,
+        }, 
+        { 
+          "3" : 1500,
+        }, 
+        { 
+          "4" : 1600,
+        }, 
+        { 
+          "5" : 1700,
+        }, 
+        { 
+          "6" : 1800,
+        },
+        { 
+          "7" : 1900,
+        }, 
+        { 
+          "7" : 2000,
+        }, 
+        { 
+          "8" : 2100,
+        }, 
+        { 
+          "9" : 2200,
+        }, 
+        { 
+          "10" : 2300,
+        }, 
+        { 
+          "11" : 2400,
+        }
+    ];
 
     //Sudo code of HTML to convert
 // <div class="container" id="time-container">
@@ -80,8 +80,8 @@ $(document).ready(function () {
     var container = $("container")
     var timeBlockEl = $(".container");
     
-    var armyT = timeSlot[0][i]
-    var nonwArmy = timeSlot[1][i]
+    var armyT = timeSlot[i][0];
+    var nonwArmy = timeSlot[i][0];
 
     //Showing Info
     currentDayEl.text(m.format('MMMM Do YYYY'));
