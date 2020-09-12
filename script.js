@@ -6,7 +6,7 @@ $(document).ready(function () {
     //Adding the calendar
     var calender = document.querySelector(".container");
     //for (var i = 0; i < 0; i++);
-    for (var day = 1; day < 31; day++)
+
         var cal = $("")
         console.log(day)
     
@@ -21,49 +21,49 @@ $(document).ready(function () {
     currentDayEl.text(m.format('MMMM Do YYYY'));
     timeBlockEl.text(m.format('h:mm:ss a'));
     
-    //Arrat of object so we can Iterate over them
+    //Array of object so we can Iterate over them
     //JSON Format Javascript Object Notation
-    timeSlots [
-        {
-         "12" : "noon",
-        },
-        { 
-         "1" : "afterNoon", 
-        },
-        {
-        "2" : "afterNoon",
-        }, 
-        { 
-         "3" : "noon",
-        }, 
-        { 
-         "4" : "afterNoon",
-        }, 
-        { 
-         "5" : "noon",
-        }, 
-        { 
-         "6" : "afterNoon",
-        },
-        { 
-         "7" : "noon",
-        }, 
-        { 
-         "7" : "afterNoon",
-        }, 
-        { 
-         "8" : "noon",
-        }, 
-        { 
-         "9" : "afterNoon",
-        }, 
-        { 
-         "10" : "noon",
-        }, 
-        { 
-         "11" : "afterNoon",
-        }
-    ]
+    // timeSlots [
+    //     {
+    //      "12" : "noon",
+    //     },
+    //     { 
+    //      "1" : "afterNoon", 
+    //     },
+    //     {
+    //     "2" : "afterNoon",
+    //     }, 
+    //     { 
+    //      "3" : "noon",
+    //     }, 
+    //     { 
+    //      "4" : "afterNoon",
+    //     }, 
+    //     { 
+    //      "5" : "noon",
+    //     }, 
+    //     { 
+    //      "6" : "afterNoon",
+    //     },
+    //     { 
+    //      "7" : "noon",
+    //     }, 
+    //     { 
+    //      "7" : "afterNoon",
+    //     }, 
+    //     { 
+    //      "8" : "noon",
+    //     }, 
+    //     { 
+    //      "9" : "afterNoon",
+    //     }, 
+    //     { 
+    //      "10" : "noon",
+    //     }, 
+    //     { 
+    //      "11" : "afterNoon",
+    //     }
+    // ]
 
   //user.json 
     console.log(JSON.parse())
