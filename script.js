@@ -2,14 +2,6 @@
 $(document).ready(function () {
     var m = moment();
     console.log(m);
-   
-    
-            //Converting the tags
-    var headerJumbotronEl = $(".jumbotron");
-    var display3El = $(".display-3");
-    var leadEl = $(".lead");
-    var currentDayEl = $("#currentDay");
-    var timeBlockEl = $(".container");
 
             // timeSlots [
     //     {
@@ -53,20 +45,43 @@ $(document).ready(function () {
     //     }
     // ]
 
+    //Sudo code of HTML to convert
+// <div class="container" id="time-container">
+    //<div class="row" main Div>
+        //<div class="col-sm-1" subDiv></div>
+        // <textarea class="col-sm-10" textEl></textarea>
+        // <button class="col-sm-1" buttonEl></button>
+    //</div>
+//</div>
+
+    //Real code
+    //var firstDiv = $("<div>");
 
     // //Adding the calendar
-    // var calender = document.querySelector(".container");
+    //var calender = document.querySelector("#container");
     // //for (var i = 0; i < 0; i++);
     // for (var day = 0; day < timeSlot.length; day++)
     //     var cal = $("")
     //     console.log(day)
-    
+
+    //function calender(data) {
+        //var
+    //}
+    // var mainDiv = $("<div>");
+    // mainDiv.attr("id", timeSlot[1][i]);
+    // mainDiv.addClass("row time-block");
+    // mainDiv.addClass("")
+
         //Converting the tags
     var headerJumbotronEl = $(".jumbotron");
     var display3El = $(".display-3");
     var leadEl = $(".lead");
     var currentDayEl = $("#currentDay");
+    var container = $("container")
     var timeBlockEl = $(".container");
+    
+    var armyT = timeSlot[0][i]
+    var nonwArmy = timeSlot[1][i]
 
     //Showing Info
     currentDayEl.text(m.format('MMMM Do YYYY'));
@@ -81,7 +96,7 @@ $(document).ready(function () {
     console.log(JSON.stringify());
 
     // This is where 
- });
+});
                     // Teachers Advice and teachings
     //  // This line of JavaScript "grabs" the main div on the page ("#drink-options");
     //  var drinkDiv = document.getElementById("drink-options");
