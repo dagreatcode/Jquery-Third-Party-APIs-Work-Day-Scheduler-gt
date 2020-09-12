@@ -14,8 +14,8 @@ $(document).ready(function () {
     timeBlockEl.text(m.format('h:mm:ss a'));
 
   //user.json
-    
-    console.log(JSON.stringify(m));
+    console.log(JSON.parse())
+    console.log(JSON.stringify());
  
  });
                     // Teachers Advice and teachings
