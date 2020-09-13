@@ -79,13 +79,30 @@ $(document).ready(function () {
           noArmy : "12am" 
         }
     ];
-    console.log(timeSlots)
+    console.log(timeSlots);
 
     //
-    function loadTimeSlots(timeSlots);
+
+    
+
+
+    // })
+    function loadTimeSlots(timeSlots) {
+        const timeContainer = document.getElementById("time-container");
+        var dataHtml = '';
+
+        for(var time of timeSlots) {
+            dataHtml += '<div><td>${time.armyT}</td><td>${time.noArmy}</td></div>';
+        console.log.length(dataHtml);
+        timeContainer.innerHTML = dataHtml;
+        
+        }
+    }
+    console.log(loadTimeSlots);
 
     // var armyT = timeSlot[i][armyT];
     // var noArmy = timeSlot[i][noArmy];
+
     // console.log(armyT);
     // console.log(noArmy);
 
