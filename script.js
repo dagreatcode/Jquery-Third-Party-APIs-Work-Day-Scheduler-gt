@@ -3,12 +3,15 @@ $(document).ready(function () {
     var m = moment();
     console.log(m);
 
+
     var headerJumbotronEl = $(".jumbotron");
     var display3El = $(".display-3");
     var leadEl = $(".lead");
     var currentDayEl = $("#currentDay");
     var containerMainDiv = $(".container")
     var timeBlockEl = $("#time-container");
+    var mainDiv = $(".main");
+    var onHour = (m.format("h"));
     
     //Showing Info
     currentDayEl.text(m.format('MMMM Do YYYY'));
@@ -69,6 +72,8 @@ $(document).ready(function () {
           noArmy : "12am" 
         }
     ];
+    console.log(timeSlots)
+
     // var armyT = timeSlot[i][armyT];
     // var noArmy = timeSlot[i][noArmy];
     // console.log(armyT);
@@ -84,9 +89,9 @@ $(document).ready(function () {
 //</div>
 
     //Real code     // //Adding the calendar
-    for (var day = 0; day < timeSlot.length; day++){
+    for (i = 0; i < timeSlot.length; i++){
         if(timeSlots[i].armT < 0){
-            document.attr(timeSlots[1].armyT + ", " + timeSlots[i].noArmy)
+            document.write(timeSlots[i].armyT + ", " + timeSlots[i].noArmy)
             console.log()
         }
     }
