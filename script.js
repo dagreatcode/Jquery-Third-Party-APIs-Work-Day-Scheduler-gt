@@ -4,14 +4,21 @@ $(document).ready(function () {
     console.log(m);
 
 
-    var headerJumbotronEl = $(".jumbotron");
-    var display3El = $(".display-3");
-    var leadEl = $(".lead");
+    // var headerJumbotronEl = $(".jumbotron");
+    // var display3El = $(".display-3");
+    // var leadEl = $(".lead");
     var currentDayEl = $("#currentDay");
-    var containerMainDiv = $(".container")
+    // var containerMainDiv = $(".container")
     var timeBlockEl = $("#time-container");
-    var mainDiv = $(".main");
     var onHour = (m.format("h"));
+    var mainDiv = $("<div>");
+    var subDiv = $("<div>");
+    var textEl = $("<textarea>");
+    var buttonEl = $("<button>");
+    var saveEl = $("<i>");
+
+    console.log(saveEl)
+    
     
     //Showing Info
     currentDayEl.text(m.format('MMMM Do YYYY'));
@@ -88,13 +95,9 @@ $(document).ready(function () {
     //</div>
 //</div>
 
-    //Real code     // //Adding the calendar
-    for (i = 0; i < timeSlot.length; i++){
-        if(timeSlots[i].armT < 0){
-            document.write(timeSlots[i].armyT + ", " + timeSlots[i].noArmy)
-            console.log()
-        }
-    }
+    // //Real code     // //Adding the calendar
+    // for (i = 0; i < timeSlot.length; i++){
+
 
 
 
