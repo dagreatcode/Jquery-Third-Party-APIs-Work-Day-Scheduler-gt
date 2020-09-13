@@ -35,8 +35,8 @@ $(document).ready(function () {
           noArmy : "1pm"
         },
         {
-         armyT : 1400, 
-         noArmy : "2pm"
+          armyT : 1400, 
+          noArmy : "2pm"
         }, 
         { 
           armyT : 1500, 
@@ -81,6 +81,9 @@ $(document).ready(function () {
     ];
     console.log(timeSlots)
 
+    //
+    function loadTimeSlots(timeSlots);
+
     // var armyT = timeSlot[i][armyT];
     // var noArmy = timeSlot[i][noArmy];
     // console.log(armyT);
@@ -97,7 +100,9 @@ $(document).ready(function () {
 
     // //Real code     // //Adding the calendar
     // for (i = 0; i < timeSlot.length; i++){
+//Conditional Statements
 
+//if=else Statement
 
 
 
