@@ -3,6 +3,18 @@ $(document).ready(function () {
     var m = moment();
     console.log(m);
 
+    var headerJumbotronEl = $(".jumbotron");
+    var display3El = $(".display-3");
+    var leadEl = $(".lead");
+    var currentDayEl = $("#currentDay");
+    var containerMainDiv = $(".container")
+    var timeBlockEl = $("#time-container");
+    
+    //Showing Info
+    currentDayEl.text(m.format('MMMM Do YYYY'));
+    timeBlockEl.text(m.format('h:mm:ss a'));
+
+    //My Array Of OBJECTS
     var timeSlots = [
         {
           armyT : 1200, 
@@ -26,37 +38,41 @@ $(document).ready(function () {
         }, 
         { 
           armyT : 1700, 
-          noArmy : 5pm
+          noArmy : "5pm"
         }, 
         { 
           armyT : 1800, 
-          noArmy : 6pm
+          noArmy : "6pm"
         },
         { 
           armyT : 1900, 
-          noArmy : 7pm
+          noArmy : "7pm"
         }, 
         { 
           armyT : 2000, 
-          noArmy : 8pm
+          noArmy : "8pm"
         }, 
         { 
           armyT : 2100, 
-          noArmy : 9pm
+          noArmy : "9pm"
         }, 
         { 
           armyT : 2200, 
-          noArmy : 10pm
+          noArmy : "10pm"
         }, 
         { 
           armyT : 2300, 
-          noArmy : 11pm
+          noArmy : "11pm"
         }, 
         { 
           armyT : 2400, 
-          noArmy : 12am 
+          noArmy : "12am" 
         }
     ];
+    // var armyT = timeSlot[i][armyT];
+    // var noArmy = timeSlot[i][noArmy];
+    // console.log(armyT);
+    // console.log(noArmy);
 
     //Sudo code of HTML to convert
 // <div class="container" id="time-container">
@@ -67,13 +83,22 @@ $(document).ready(function () {
     //</div>
 //</div>
 
-    //Real code
-    //var firstDiv = $("<div>");
+    //Real code     // //Adding the calendar
+    for (var day = 0; day < timeSlot.length; day++){
+        if(timeSlots[i].armT < 0){
+            document.attr(timeSlots[1].armyT + ", " + timeSlots[i].noArmy)
+            console.log()
+        }
+    }
 
-    // //Adding the calendar
+
+
+ 
+ 
+    //var firstDiv = $("<div>");
     //var calender = document.querySelector("#container");
     // //for (var i = 0; i < 0; i++);
-    // for (var day = 0; day < timeSlot.length; day++)
+
     //     var cal = $("")
     //     console.log(day)
 
@@ -85,28 +110,22 @@ $(document).ready(function () {
     // mainDiv.addClass("row time-block");
     // mainDiv.addClass("")
 
-        //Converting the tags
-    var headerJumbotronEl = $(".jumbotron");
-    var display3El = $(".display-3");
-    var leadEl = $(".lead");
-    var currentDayEl = $("#currentDay");
-    var container = $("container")
-    var timeBlockEl = $(".container");
-    
-    var armyT = timeSlot[i][0];
-    var noArmy = timeSlot[i][1];
 
-    //Showing Info
-    currentDayEl.text(m.format('MMMM Do YYYY'));
-    timeBlockEl.text(m.format('h:mm:ss a'));
+    
+    // // var armyT = timeSlot[i][0];
+    // // var noArmy = timeSlot[i][1];
+
+    // //Showing Info
+    // currentDayEl.text(m.format('MMMM Do YYYY'));
+    // timeBlockEl.text(m.format('h:mm:ss a'));
     
     //Array of object so we can Iterate over them
     //JSON Format Javascript Object Notation
 
 
   //user.json 
-    console.log(JSON.parse())
-    console.log(JSON.stringify());
+    // console.log(JSON.parse())
+    // console.log(JSON.stringify());
 
     // This is where 
 });
