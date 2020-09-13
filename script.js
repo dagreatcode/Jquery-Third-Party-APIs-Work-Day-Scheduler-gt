@@ -81,9 +81,19 @@ $(document).ready(function () {
     ];
     console.log(timeSlots);
 
-    //
+    // var mainDiv = $("<div>");
+    // mainDiv.attr("id", timeSlots[i];
 
-    
+    // $("#time-container").append(mainDiv);
+
+
+
+
+    //Parsing to that it is readable to the local storage
+    var storage = JSON.parse(localStorage.getItem(timeSlots));
+    console.log(storage);
+
+
 
 
     // })
@@ -154,8 +164,8 @@ $(document).ready(function () {
 
 
   //user.json 
-    // console.log(JSON.parse())
-    // console.log(JSON.stringify());
+    //console.log(JSON.parse())
+    //console.log(JSON.stringify());
 
     // This is where 
 });
