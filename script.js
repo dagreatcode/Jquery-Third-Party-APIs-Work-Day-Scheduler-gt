@@ -3,54 +3,54 @@ $(document).ready(function () {
     var m = moment();
     console.log(m);
 
-    timeSlots = [
+    var timeSlots = [
         {
-          "armyT" : 1200, 
-          "noArmy" : 12pm
+          armyT : 1200, 
+          noArmy : "12pm"
         },
         { 
-          "armyT" : 1300, 
-          "noArmy" : 1pm
+          armyT : 1300, 
+          noArmy : "1pm"
         },
         {
-         "armyT" : 1400, 
-         "noArmy" : 2pm
+         armyT : 1400, 
+         noArmy : "2pm"
         }, 
         { 
-          "armyT" : 1500, 
-          "noArmy" : 3pm
+          armyT : 1500, 
+          noArmy : "3pm"
         }, 
         { 
-          "armyT" : 1600, 
-          "noArmy" : 4pm
+          armyT : 1600, 
+          noArmy : "4pm"
         }, 
         { 
-          "armyT" : 1700, 
-          "noArmy" : 5pm
+          armyT : 1700, 
+          noArmy : 5pm
         }, 
         { 
-          "armyT" : 1800, 
-          "noArmy" : 6pm
+          armyT : 1800, 
+          noArmy : 6pm
         },
         { 
-          "armyT" : 1900, 
-          "noArmy" : 7pm
+          armyT : 1900, 
+          noArmy : 7pm
         }, 
         { 
-          "armyT" : 2000, 
-          "noArmy" : 8pm
+          armyT : 2000, 
+          noArmy : 8pm
         }, 
         { 
-          "armyT" : 2100, 
-          "noArmy" : 9pm
+          armyT : 2100, 
+          noArmy : 9pm
         }, 
         { 
-          "armyT" : 2200, 
-          "noArmy" : 10pm
+          armyT : 2200, 
+          noArmy : 10pm
         }, 
         { 
-          "armyT : 2300, 
-          "noArmy : 11pm
+          armyT : 2300, 
+          noArmy : 11pm
         }, 
         { 
           armyT : 2400, 
