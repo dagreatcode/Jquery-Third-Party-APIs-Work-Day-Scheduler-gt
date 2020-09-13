@@ -5,43 +5,56 @@ $(document).ready(function () {
 
     timeSlots = [
         {
-          "12" : 1200,
+          "armyT" : 1200, 
+          "noArmy" : 12pm
         },
         { 
-          "1" : 1300, 
+          "armyT" : 1300, 
+          "noArmy" : 1pm
         },
         {
-         "2" : 1400,
+         "armyT" : 1400, 
+         "noArmy" : 2pm
         }, 
         { 
-          "3" : 1500,
+          "armyT" : 1500, 
+          "noArmy" : 3pm
         }, 
         { 
-          "4" : 1600,
+          "armyT" : 1600, 
+          "noArmy" : 4pm
         }, 
         { 
-          "5" : 1700,
+          "armyT" : 1700, 
+          "noArmy" : 5pm
         }, 
         { 
-          "6" : 1800,
+          "armyT" : 1800, 
+          "noArmy" : 6pm
         },
         { 
-          "7" : 1900,
+          "armyT" : 1900, 
+          "noArmy" : 7pm
         }, 
         { 
-          "7" : 2000,
+          "armyT" : 2000, 
+          "noArmy" : 8pm
         }, 
         { 
-          "8" : 2100,
+          "armyT" : 2100, 
+          "noArmy" : 9pm
         }, 
         { 
-          "9" : 2200,
+          "armyT" : 2200, 
+          "noArmy" : 10pm
         }, 
         { 
-          "10" : 2300,
+          "armyT : 2300, 
+          "noArmy : 11pm
         }, 
         { 
-          "11" : 2400,
+          armyT : 2400, 
+          noArmy : 12am 
         }
     ];
 
@@ -81,7 +94,7 @@ $(document).ready(function () {
     var timeBlockEl = $(".container");
     
     var armyT = timeSlot[i][0];
-    var nonwArmy = timeSlot[i][0];
+    var noArmy = timeSlot[i][1];
 
     //Showing Info
     currentDayEl.text(m.format('MMMM Do YYYY'));
