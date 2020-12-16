@@ -1,4 +1,19 @@
-# cool-day-planner
+# Work Day Scheduler
+
+<!-- https://dagreatcode.github.io/Web-APIs-Code-Quiz-gt/ -->
+
+[![Website dagreatcode.github.io/Web-APIs-Code-Quiz-gt/](https://img.shields.io/website-up-down-green-red/https/dagreatcode.github.io/Web-APIs-Code-Quiz-gt/.svg)](https://dagreatcode.github.io/Web-APIs-Code-Quiz-gt/)
+
+
+[![GitHub followers](https://img.shields.io/github/followers/dagreatcode.svg?style=social&label=Follow&maxAge=2592000)](https://github.com/dagreatcode?tab=followers)
+
+<img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
+<img src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/bootstrap%20-%23563D7C.svg?&style=for-the-badge&logo=bootstrap&logoColor=white"/>
+<img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/github%20-%23121011.svg?&style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/jquery%20-%230769AD.svg?&style=for-the-badge&logo=jquery&logoColor=white"/>
+
 So I worked hard on this and still ended up getting a fail... i was going to hard code it bit i wanted to dynamically do it but i messed up big time...
 
 In this class im starting to see why we are doing the things we are doing. We can not slow down in class because it is so much info to show.
